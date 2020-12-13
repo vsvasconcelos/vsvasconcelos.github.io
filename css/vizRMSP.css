@@ -1,0 +1,73 @@
+.menu-opcoes ul li{
+	font-size: 20px;
+	display: inline;
+	margin-left: 20px;
+}
+
+.menu-opcoes a {
+	color: #003366;
+}
+
+body {
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+header {
+	position: relative;
+	background-color:#ECF3F3;
+}
+
+.menu-opcoes {
+	position: absolute;
+	top: 30px;
+	left: 90px;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #555;
+    text-align: center;
+    font-size: 16pt;
+}
+
+path {
+    stroke-width: 1px;
+    stroke: #050700;
+    fill: #83ff00;
+    cursor: pointer;
+}
+
+path:hover,
+path.highlighted {
+    fill: #0800ff;
+}
+
+/*
+#chart {
+    position: relative;
+    width: 1000px;
+}
+*/
+
+.tooltip {
+    position: absolute;
+    background-color: lightgrey;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    padding: 4px 8px;
+    display: none;
+    z-index: 10;
+}
+
+.logotipo {
+		display: inline;
+    text-align: left;
+		margin-top: 10px;
+		margin-left: 15px;
+}
+
+.piormelhor .pior { float:left }
+.piormelhor .melhor { float:right }
